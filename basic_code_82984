@@ -1,1 +1,1013 @@
 
+
+40020868 SHREYASHI SONKAR
+19/07/2022
+
+
+tax = 12.5 / 100 
+price = 100.50
+v = price * tax
+print (v)
+print (4 * 3.75 - 1)
+
+
+a=56
+b=45
+print(a*b)
+print(a-b)
+print(a+b)
+print(a/b)
+print(a//b)
+print(a%b)
+print(a**b)
+ 
+
+a="model"
+print(a[1:4])
+print("hello","world")
+x1 = 5
+y1 = 5
+print(x1 is y1)
+y="shreyashi"
+print('h' in y)
+print('yashi' in y)
+
+
+
+## arthmetic operator
+v= 23
+w=12
+print(v+w)
+print(v-w)
+print(v*w)
+print(v/w)
+print(v//w)
+print(v%w)
+print(v**w)
+
+# logical operator
+v1= 0
+w2= 1
+print(v1 and w2)
+print(v1 or w2)
+print( v>w)
+print(v==w)
+
+
+a="model"
+print(a[1:4])
+print("hello","world")
+
+# identity operator
+x1 = "shreyashi"
+y1 = "shreyashi"
+print('s' is not y1)
+
+# memebership operator
+y="shreyashi"
+print('h' in y)
+print('yashi' not in y)
+
+problem: 5 student 5 subject mark
+
+student_Name= "shweta"
+hindi=54
+english=67
+
+22/07/2022
+def strReverse(str):
+    if str=="":
+        return str
+    else:
+        return strReverse(str[1:])+str[0]
+
+    
+ 
+
+strReverse("model")
+
+
+mySquare=lambda x:x*x
+print(mySquare(5))
+art=60
+computer=65
+maths=81
+
+total_obtain_mark= (hindi+english+art+computer+maths)
+print(total_obtain_mark)
+percentage=(total_obtain_mark/500)*100
+print(percentage)
+
+
+print ('Hello World')
+x=8
+print(8!=x)
+sub1=int(input("enter sub1 mark:"))
+print(sub1)
+sub2=int(input("enter sub2 mark:"))
+print(sub2)
+print("totalmark",sub1+sub2)
+
+
+20/07/2022
+
+
+height=2         #in meter
+weight=75 #in kg
+
+BMI=(weight)/( height)**2
+if BMI<18.5:
+  print("underweight",BMI)
+else:
+  pass
+if 18.5<BMI<25:
+  print("normal",BMI)
+else:
+  pass
+if 25<BMI<30:
+  print("overwieght",BMI)
+else:
+  pass
+if 30<BMI<35:
+  print("obese",BMI)
+else:
+  print(BMI,"you need to concern to your health")
+````````````````````````````````````````````````````````````````````````````
+ IF ELSE CONDITION
+  if BMI<18.75:
+     print("underweight",BMI)
+ elif 18.25<BMI<25:
+     print("NORAML",BMI)
+ elif 25<BMI<30:
+     print("overweight",BMI)
+ elif 30<BMI<35:
+     print("OBESE",BMI)
+
+``````````````````````````````````````````````````````````````````````````
+
+
+v2="model"
+print(v2[0])
+print(v2[1])
+print(v2[2])
+print(v2[3])
+print(v2[4])
+print("                                                               ")
+`````````````````````````````````````````````````````````````````````````````
+for xx in "model":
+    print(xx)
+`````````````````````````````````````````````````````````````````````````
+print("                                                               ")
+v1="model"
+for x in v1:
+    print(x)
+print("                                                               ")
+``````````````````````````````````````````````````````````````````````````````
+subject=["fop","oop","python"]
+for x in subject:
+    print(x)
+    if x==subject[1]:
+        break
+print("                                                               ")
+
+`````````````````````````````````````````````````````````````````````
+for x in "shreyashi":
+    if x=='y':
+        break
+    print(x)
+print("                                                               ")
+`````````````````````````````````````````````````````````````````````    
+l1=["haritha","debraj","saddam","bhagyashri"]
+for i in l1:
+    print(i)
+    if i==l1[1]:
+        break
+print("                                                               ")
+``````````````````````````````````````````````````````````
+
+for x in range(6):
+    print(x)
+    
+````````````````````````````````````````````````````````   
+for i in range(0,6):
+    print(i)
+
+n=10
+i=0
+while i<n:
+    if i%2==0:
+        print(i)
+    i=i+1
+``````````````````````````````````````````````````````
+n=10
+i=0
+while i<n:
+    if i%2==0:
+        print("even",i)
+    
+    else:
+      print("odd",i)
+    i=i+1
+`````````````````````````````````````````````````````
+
+n=10
+i=0
+while i<n:
+  if(i%n==1 and i%2!=0):
+    print(i)
+  i=i+1
+
+```````````````````````````````````````````````````````
+
+x="shreyashi"
+print(x.casefold())
+y=x.capitalize()
+print(y)
+k="SIDDA KAGE HUCHAPPA"
+print(k.casefold())
+print(k.lower())
+print(k.center(20))
+print(k.center(40,'k'))
+print(k.count('D'))
+print(k.encode())
+print(k.endswith('P'))
+`````````````````````````````````````````````````````
+
+21/07/2022
+prelunch
+
+
+
+i=1
+while i<=10:
+  print(i)
+  j=1
+  while(j<=10):
+    print("i*j=",i*j)
+    j=j+1
+  i=i+1   
+    
+`````````````` ````````````````````````````````````
+i=1
+while i<=4:
+  j=1
+  while j<=i:
+    print(j,end="")
+    j=j+1
+  print()
+  i=i+1
+
+
+print(                                 )
+
+`````````````````````````````````````````````````
+i=1
+
+while i<=4:
+  j=4
+  while i<=j:
+    print(j,end="")
+    j-=1
+  print()
+  i=i+1
+print(                             )
+
+````````````````````````````````````````````````
+i=1
+k=45
+while i<=4:
+  j=1
+  while j<=i:
+    print("{:5f}".format(k), end = " ")
+
+    j=j+1
+    k=k+1
+  print()
+  i=i+1  
+
+````````````````````````````````````````````````
+i=1
+while i<=4:  
+  j=1
+  while j<=i:
+    print("8", end="")
+    j=j+1
+    if j==i:
+      while i<=j:
+        print(j,end="")
+      j=j-1
+  print()    
+  i=i-1  
+ ````````````````````````````````````````````````` 
+def add(num1,num2):
+    sum1=(num1+num2)
+    return sum1
+
+    
+def main():
+    n=int(input())
+    x=int(input())
+    v=add(n,x)
+    print(v)
+
+main()
+
+``````````````````````````````````````````````````````
+
+def sub_T(p,q):
+  
+  res=p-q
+  return res
+def main():
+  x=int(input())
+  y=int(input())
+  g=sub_T(x,y)
+  print(g)
+main()
+  
+`````````````````````````````````````````````````````````
+def cal_Culator(x,y):
+  
+  add=(x+y)
+  sub=(x-y)
+  mul=(x*y)
+  div=(x/y)
+  
+  return(add,sub,mul,div)
+
+def main():
+  num1=int(input("enter first number:"))
+  num2=int(input("enter second number:"))
+  a=cal_Culator(num1,num2)
+  print("your result",a)
+main()
+
+```````````````````````````````````````````````````````````
+
+def strReverse(str):
+  if str=="":
+    return str
+  else:
+    
+    return strReverse(str[1:])+str[0]
+
+strReverse("model")    
+mySquare=[lambda x:x*x]
+for i in range x:
+print(mySquare(5))
+
+
+def add_Number(k):
+  if k>0:
+    return(k+(add_Number(k-1)))
+  else:
+    return 0
+res=add_Number(9)
+print(res)
+
+
+
+
+
+mat1=[[1,2,3],[1,2,3],[1,2,3]]
+mat2=[[1,2,3],[1,2,3],[1,2,3]]
+# mat3=mat1+mat2
+# print(mat3)
+
+for i in range len(mat1):
+    for j in range len(mat2):
+        v=mat1[i]+mat2[j]
+print(v)
+
+
+
+        
+
+mat1=[[1,2,3],[1,2,3],[1,2,3]]
+mat2=[[1,2,3],[1,2,3],[1,2,3]]
+mat3=mat1+mat2
+print(mat3)
+
+for i in range (len(mat1)):
+    for j in range (len(mat2)):
+        v=mat1[i]+mat2[j]
+print(v)
+        
+ #without loop:     
+mat_sum=[mat1[0][0]+mat2[0][0],mat1[0][1]+mat2[0][1],mat1[0][2]+mat2[0][2]]
+mat_sum2=[mat1[1][0]+mat2[1][0],mat1[1][1]+mat2[1][1],mat1[1][2]+mat2[1][2]]
+mat_sum3=[mat1[2][0]+mat2[2][0],mat1[2][1]+mat2[2][1],mat1[2][2]+mat2[2][2]]
+matx=[[mat_sum],[mat_sum2],[mat_sum3]]
+print(matx)
+matx=[[0,0,0],[0,0,0],[0,0,0]]
+#   addition 
+for i in range (len(mat1)):
+    for j in range(len(mat2)):
+        for k in range(len(matx)):
+            matx[i][j]=mat1[i][j]+mat2[i][j]
+            
+print(matx)
+
+# multiply
+for i in range (len(mat1)):
+    for j in range(len(mat2)):
+        for k in range(len(matx)):
+            matx[i][j]=mat1[i][i]*mat2[i][j]
+            
+            
+print(matx)
+mat1=[[1,2,3],[1,2,3],[1,2,3]]
+mat2=[[1,2,3],[1,2,3],[1,2,3]]
+# mat3=mat1+mat2
+# print(mat3)
+
+# for i in range (len(mat1)):
+#     for j in range (len(mat2)):
+#         v=mat1[i]+mat2[j]
+# print(v)
+        
+ #without loop:     
+# mat_sum=[mat1[0][0]+mat2[0][0],mat1[0][1]+mat2[0][1],mat1[0][2]+mat2[0][2]]
+# mat_sum2=[mat1[1][0]+mat2[1][0],mat1[1][1]+mat2[1][1],mat1[1][2]+mat2[1][2]]
+# mat_sum3=[mat1[2][0]+mat2[2][0],mat1[2][1]+mat2[2][1],mat1[2][2]+mat2[2][2]]
+# matx=[[mat_sum],[mat_sum2],[mat_sum3]]
+# print(matx)
+matx=[[0,0,0],[0,0,0],[0,0,0]]
+# #   addition 
+# for i in range (len(mat1)):
+#     for j in range(len(mat2)):
+#         for k in range(len(matx)):
+#             matx[i][j]=mat1[i][j]+mat2[k][j]
+            
+# print(matx)
+
+# # multiply
+for i in range (len(mat1)):
+    for j in range(len(mat2)):
+        for k in range(len(matx)):
+            matx[i][j]=mat1[i][k]+mat2[k][j]
+            
+            
+print(matx)
+mat1=[[1,2,3],[1,2,3],[1,2,3]]
+mat2=[[1,2,3],[1,2,3],[1,2,3]]
+# mat3=mat1+mat2
+# print(mat3)
+
+# for i in range (len(mat1)):
+#     for j in range (len(mat2)):
+#         v=mat1[i]+mat2[j]
+# print(v)
+        
+ #without loop:     
+# mat_sum=[mat1[0][0]+mat2[0][0],mat1[0][1]+mat2[0][1],mat1[0][2]+mat2[0][2]]
+# mat_sum2=[mat1[1][0]+mat2[1][0],mat1[1][1]+mat2[1][1],mat1[1][2]+mat2[1][2]]
+# mat_sum3=[mat1[2][0]+mat2[2][0],mat1[2][1]+mat2[2][1],mat1[2][2]+mat2[2][2]]
+# matx=[[mat_sum],[mat_sum2],[mat_sum3]]
+# print(matx)
+matx=[[0,0,0],[0,0,0],[0,0,0]]
+# #   addition 
+# for i in range (len(mat1)):
+#     for j in range(len(mat2)):
+#         for k in range(len(matx)):
+#             matx[i][j]=mat1[i][j]+mat2[k][j]
+            
+# print(matx)
+
+# # multiply
+for i in range (len(mat1)):
+    for j in range(len(mat2)):
+        for k in range(len(matx)):
+            matx[i][j]=mat1[i][k]+mat2[k][j]
+            
+            
+print(matx)
+'''
+mat1=[[1,2,3],[1,2,3],[1,2,3]]
+mat2=[[1,2,3],[1,2,3],[1,2,3]]
+# mat3=mat1+mat2
+# print(mat3)
+
+# for i in range (len(mat1)):
+#     for j in range (len(mat2)):
+#         v=mat1[i]+mat2[j]
+# print(v)
+        
+ #without loop:     
+# mat_sum=[mat1[0][0]+mat2[0][0],mat1[0][1]+mat2[0][1],mat1[0][2]+mat2[0][2]]
+# mat_sum2=[mat1[1][0]+mat2[1][0],mat1[1][1]+mat2[1][1],mat1[1][2]+mat2[1][2]]
+# mat_sum3=[mat1[2][0]+mat2[2][0],mat1[2][1]+mat2[2][1],mat1[2][2]+mat2[2][2]]
+# matx=[[mat_sum],[mat_sum2],[mat_sum3]]
+# print(matx)
+matx=[[0,0,0],[0,0,0],[0,0,0]]
+# #   addition 
+# for i in range (len(mat1)):
+#     for j in range(len(mat2)):
+#         for k in range(len(matx)):
+#             matx[i][j]=mat1[i][j]+mat2[k][j]
+            
+# print(matx)
+
+# # multiply
+for i in range (len(mat1)):
+    for j in range(len(mat2)):
+        for k in range(len(matx)):
+            matx[i][j]=mat1[i][k]+mat2[k][j]
+            
+            
+print(matx)
+
+
+25/07/2022
+tup1='a'
+print(tup1)
+tup1='a',
+print(tup1)
+tup1='a'
+print(tup1[0])
+tup2=('a','b','c')
+print(tup2[1:])
+print(tup2[1:3])
+print(tup2[-2:-1])
+print(tup2[:])
+tup2=('a','d','e')
+print(tup2)
+tup2=('a','b','c')
+print(tup2)
+a_tup=("shreya","sonkar")
+a_tup=a_tup + ("gorakhpur",)
+print(a_tup)
+a_tuple1 = (1, 2, 3)
+# a_tuple1[2] =4 typeerror
+
+a_tuple1 = (1, 2, 3)
+print(id(a_tuple1))
+a_tuple1 = a_tuple1 + (4,)
+print(id(a_tuple1))
+tup1 = 'a'
+print(tup1)
+tup1 = 'a',
+print(tup1)
+tup1 = 'a'
+print(tup1[0])
+tup2 = ('a', 'b', 'c')
+print(tup2[1:])
+print(tup2[1:3])
+print(tup2[-2:-1])
+print(tup2[:])
+tup2 = ('a', 'd', 'e')
+print(tup2)
+tup2 = ('a', 'b', 'c')
+print(tup2)
+a_tup = ("shreya", "sonkar")
+a_tup = a_tup + ("gorakhpur", )
+print(a_tup)
+a_tuple1 = (1, 2, 3)
+# a_tuple1[2] =4 typeerror
+
+a_tuple1 = (1, 2, 3)
+print(id(a_tuple1))
+a_tuple1 = a_tuple1 + (4, )
+print(id(a_tuple1))
+new_Tup = ("Shital", "menna", "bhilai")
+new_Tup = (*new_Tup, "hi")
+print(new_Tup)
+new_2tup = (2, 4, 5, [1, 2, 3, 4])
+name={"Shreyashi","Bhagyshri","Pallawi"}
+name.add("Siddarood")
+print(name)
+
+name.pop()
+name.clear()
+print(name)
+print(name)
+print(name)
+name={"Shreyashi","Bhagyshri","Pallawi"}
+print(name)
+print(type(name))
+name2=set(["Shreyashi","Bhagyshri","Pallawi"])
+print(name2)
+v={"hello","guys","shreyashi","here"}
+print(len(v))
+for x in range(v):
+  print(x)
+
+  
+26-07-2022
+  
+def table(t):
+  
+    
+  num=int(input())
+    
+    
+  tup_tab=[]
+  if num>0:
+    
+    for x in range(1,11):
+      
+      x=num*x
+      
+      tup_tab.append(x)
+        
+            
+    return tup_tab
+def main():
+  print(table(2))
+main()
+
+
+import re
+strk="Hi carefully read this text, sensibilly and technically guve solution"
+strk="carefully read this text, sensibilly and technically give solution"
+str_x=re.findall(r"\w{4}",strk)
+# str_x=re.findall(r"\wly\b",strk)#r use for rawstring
+print(str_x)
+
+str_z=re.search(r"\w+ly\b",strk)
+str_x=re.findall(r"\wly\b",strk)#r use for rawstring
+print(str_z)
+str_p=re.match(r"\w+ly\b",strk)
+str_x=re.findall(r"\wly\b",strk)#r use for rawstring
+print(str_p)
+
+
+# ques 1:
+import re
+str_x="there are lot of consequence12343"
+str_check=re.findall("[a-zA-Z0-9]",str_x)
+print(str_check)
+
+# # ques:27
+import re
+str_x="t0hebre are lot0 of cons0bequence12343"
+str_check=re.findall("\d[0-9]",str_x)
+print(str_check)
+
+# # ques:3
+import re
+str_x="ab0hebre are lot0 of cons0abbb0equence12343"
+str_check=re.search(r"\b^a*b+?",str_x)
+print(str_check)
+
+
+#  # ques4:
+import re
+str_x="ab0hebre are lot0 of cons0abbb0equence12343"
+str_check=re.search(r"\b^a?b",str_x)
+print(str_check)
+
+#ques 5
+import re
+str_x="aabbbbbb0 hi, this is abbbbb"
+str_check=re.search(r'^a+b{3}',str_x)
+print(str_check)
+
+# ques7:
+import re
+str_thought="You_Never_know_When a moment and a few sincere words can have an impact on a life."
+str_check1=re.findall("[a-z_A-Z_]",str_thought)
+print(str_check1)
+
+# ques8:
+
+str_check2=re.findall(r'[\b^A-Z$a_z\b]',str_thought)
+print(str_check2)
+
+#ques27
+
+text="ten10,twenty20,thirty30"
+rh=re.split("\D+",text)
+print(rh)
+
+27/07/2022
+
+def table():
+  
+  
+  global num
+  # global tab
+  tab=[]
+  
+  num=2
+  
+  for i in range(1,11):
+    i=num*i
+    tab.append(i)
+  print(tab)
+  
+global tab
+tab=[]
+num=4
+
+print(table())
+table()
+print(table())
+
+FileManipulation=open("FileManipulation.txt","x")
+
+
+import re
+
+    
+FileManipulation=open("FileManipulation.txt","w+")
+
+f_write=FileManipulation.write("L&T Technology Services Limited (LTTS) is a global leader in Engineering and R&D (ER&D) services\n With 913 patents filed for 57 of the Global Top 100 ER&D spenders, \nLTTS lives and breathes engineering. \nOur innovations speak for themselves \n– World’s 1st Autonomous Welding Robot, Solar ‘Connectivity’ Drone, and the Smartest Campus in the World.LTTS’ expertise in engineering design, product development\n smart manufacturing\ndigitalization touches every area of human lives\n from the moment one wakes up till the time one goes to bed.With 89 Innovation and R&D design centers globally\nwe specialize in disruptive technology spaces such as 5G\nArtificial Intelligence, Collaborative Robots, Digital Factory, and Autonomous Transport.\nLTTS is a publicly listed subsidiary of Larsen & Toubro Limited, \n the $21 billion Indian conglomerate operating in over 30 countries.")
+print(f_write)
+FileManipulation=open("FileManipulation.txt","r")
+f_read=FileManipulation.read()
+print(f_read)
+
+
+    
+with open("FileManipulation.txt","r") as ltts_file:
+    text = ltts_file.read()
+    print(len(re.findall(r'\w+', text)))
+    print(len(re.split(r'\w+', text)))
+    lines=ltts_file.readlines()
+    print(len(lines))
+    
+    
+
+
+
+  
+def gstr():
+  global str
+  print(str)
+  str="Hllo gtr"
+  print(str)
+str="hello sb"
+print(str)
+gstr()
+print(str)
+
+
+
+
+def sumc(a,b):
+  a=20
+  b=40
+  result=a+b
+  return result
+a=10
+b=30
+print(sumc(10,30))
+
+
+z
+
+
+
+def sum_M():
+    # local scope
+  a=10
+  b=50
+  res=a+b
+  return res
+
+global a,b
+a=30
+b=100
+print(sum_M())
+
+
+
+v=int(input())
+i=int(input())
+try:
+  b=v/i
+  print(b)
+except:
+  print("division error")
+else:
+  print("solved")
+finally:
+  print("get result")
+  
+
+
+try:
+  v=787
+  print(v)
+except NameError:
+  print("exceptionerror")
+except:
+  print("another error")
+
+print("k")
+print("shreyashi")
+
+fobj=open("Demo.text","x")
+
+try:
+    fread=fobj.read()
+    print(fread)
+except:
+    print("UnsupportedOperation: not readable: beacuse file is in create mode")
+finally:
+    print("in the next I shall open the file")
+
+# fobj=open("Demo.text","r")
+# fread=fobj.read()
+# fwrite=fobj.write("hello")
+# # print(fread)
+# print(fwrite)
+
+
+
+fobj=open("Demo.text","w+")
+fwrite=fobj.write("kfrb")
+fread=fobj.read()
+fread=fobj.raed(2)
+print(fread)
+print(fread)
+fread=fobj.readlines(2)
+print(fread)
+
+
+L&T Technology Services Limited (LTTS) is a global leader in Engineering and R&D (ER&D) services. 
+With 913 patents filed for 57 of the Global Top 100 ER&D spenders,
+ LTTS lives and breathes engineering.
+ Our innovations speak for themselves 
+ World’s 1st Autonomous Welding Robot, Solar ‘Connectivity’ Drone
+ and the Smartest Campus in the World, to name a few.
+LTTS’ expertise in engineering design, product development,
+ smart manufacturing, and digitalization touches every area of human lives 
+- from the moment one wakes up till the time one goes to bed. With 89 Innovation and R&D design centers globally,
+ we specialize in disruptive technology spaces such as 5G, Artificial Intelligence, Collaborative Robots, Digital Factory, and Autonomous Transport.
+
+
+
+
+28/07/2022
+newfile=open("new.txt","x")
+try:
+    fread=newfile.read()
+    print(fread)
+except:
+    print("UnsupportedOperation: not readable: beacuse file is in create mode")
+finally:
+    print("in the next I shall open the file"
+
+
+newfile=open("new.txt","r")
+fread=newfile.read()
+fwrite=newfile.write("hello")
+
+newfile=open("new.txt","w+")
+fwrite=newfile.write("hello my name is \n shreyashi sonkar \n and i work at ltts \n and i am in mysuru")
+print(fwrite)
+
+newfile=open("new.txt","r")
+fread=newfile.read()
+print(fread)
+newfile.close()
+
+newfile=open("new.txt","r")
+fread=newfile.readlines()
+for i in fread:
+    if i in range(0,3):
+        print(fread[i])
+    else:
+        break
+
+with open("new.txt","r") as myfle:
+    myfle.seek(6)
+    print(myfle.tell())
+    print(myfle.readlines())
+    newfile.close()
+
+
+main_file=open("main_file.txt","x")
+print(fread)
+
+main_file=open("main_file.txt","w+")
+
+with open("main_file.txt","r") as file:
+    onread=file.read()
+    f=onread.split()
+    for i in f:
+        count=count+1
+    print("wordcount",count)
+
+with open("main_file.txt","r") as file:
+    
+    onread=file.readlines()
+    print(len(onread))
+count=0
+with open("main_file.txt","r") as file:
+    onread=file.read()
+    f=onread.split()
+    for i in f:
+        count=count+1
+    print("wordcount",count)
+
+import re
+
+with open("main_file.txt","r") as file:
+    onread=file.read()
+    replace_w=re.sub("for","of",onread)
+    print(replace_w)
+    speci_w=re.findall("for",onread)
+    print(speci_w)
+    print(len(speci_w))
+    seacrh_w="for"
+    print("output by the bool function")
+    print(bool(speci_w)) 
+    
+    print("output by the loop") 
+    for i in range(len(onread)):
+        if b[i]==seacrh_w:  
+            print("true")       
+    
+with open("main_file.txt","r") as file:
+    onread=file.read()
+    b=onread.split()
+    speci_w=re.findall("for",onread)
+    print(speci_w.split())
+    # print(speci_w)
+    
+    
+    for i in range(len(b)):
+        if speci_w==b[i]:
+            count_w=count_w+1
+            print(count_w)
+        
+    
+    seacrh_w="for"
+    print("output by the bool function")
+    print(bool(speci_w)) 
+    
+    print("output by the loop") 
+    for i in range(len(b)):
+        if seacrh_w==b[i]:  
+            print("true")       
+print("for writing the data")
+from openpyxl import Workbook  
+  
+wb = Workbook()  
+sheet = wb.active  
+  
+data = (  
+    ("Serial no.", "PS  NUM", "FIRST NAME","BASE LOCATION","DEGREE"),  
+    (1, 40020854 , "Amarjeet","mysuru","M.Tech"),  
+    (2, 40020837,"Niraml" ,"Mysuru","B.Tech"),  
+    (3, 40020872, "Pallawi","Banglore","B.Tech"),  
+    (4, 40020868, "Shreyashi","Hydrabad","B.Tech"),  
+    (5, 40020890, "Gokul","Mumbai","B.Tech"),  
+     
+)  
+  
+for i in data:  
+    sheet.append(i)  
+wb.save('appending_values.xlsx')  
+
+
+print("for read data")
+import openpyxl  
+  
+wb = openpyxl.load_workbook('sample_file.xlsx')  
+  
+sheet = wb.active  
+  
+
+x1 = sheet.cell(row=1, column=1)
+x2 = sheet.cell(row=1, column=2)
+x3 = sheet.cell(row=1, column=3)
+x4 = sheet.cell(row=1, column=4)
+x5 = sheet.cell(row=1, column=5)
+x6 = sheet.cell(row=2, column=1)
+x7 = sheet.cell(row=2, column=2)
+x8 = sheet.cell(row=2, column=3)
+x9 = sheet.cell(row=2, column=4)
+x10 = sheet.cell(row=2, column=5)
+x11 = sheet.cell(row=3, column=1)
+x12 = sheet.cell(row=3, column=2)
+x13 = sheet.cell(row=3, column=3)
+x14 = sheet.cell(row=3, column=4)
+x15 = sheet.cell(row=3, column=5)
+x16 = sheet.cell(row=4, column=1)
+
+
+  
+print(x1.value)  
+print(x2.value)  
+print(x3.value)
+print(x4.value) 
+print(x5.value)  
+print(x6.value)  
+print(x7.value)  
+print(x8.value)  
+print(x9.value)  
+print(x10.value)  
+print(x11.value)  
+print(x12.value) 
+print(x13.value)  
+print(x14.value)  
+print(x15.value)  
+print(x16.value)  
+
+
+
+
