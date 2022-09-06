@@ -1,1 +1,89 @@
 
+group task
+Bhagyshri gupta :40020878
+pallawi kumari: 40020872
+Shreyashi Sonkar:40020868
+
+Topic: Set in python
+Set : Sets are used to store multiple items in a single variable.
+=> unoredered Items
+=> each item must be unique
+=> no indexing attach
+=> unchangeable*,Set items are unchangeable, meaning that we cannot change the items after the set has been created.  ( * Note: Set items are unchangeable, but you can remove items and add new items.)
+
+
+
+Creation of set:
+ => by the using curly braces {}.
+ => by using set()
+
+  name={"Shreyashi","Bhagyshri","Pallawi"}
+  print(name)
+  print(type.(name))
+  name2=set(["Shreyashi","Bhagyshri","Pallawi"])
+  print(name2)
+
+
+# Creating a set which have immutable elements  
+set1 = {1,2,3, "hi", 20.5, 14}  
+print(type(set1))  
+#Creating a set which have mutable element  
+set2 = {1,2,3,["hi",4]}  
+print(type(set2))  
+
+
+Set Items - Data Types:
+Set items can be of any data type: String, int and boolean data types.
+
+
+Adding value in set:
+add():- add func used for single value in set.
+update():- upadte func used for to add multiple value.
+ name={"Shreyashi","Bhagyshri","Pallawi"}
+ name.add("Siddarood")
+print(name)
+name.update("sonkar","gupta","kumari")
+print(name)
+
+
+Removing value in set:
+discard() and remove() used for a particular value which is in set.
+pop(): not removing the last item ().
+clear(): it will remove all item.
+
+
+
+
+Python set operation:
+Join Two Sets:
+union:(|) The union of the two sets contains all the items that are present in both the sets.
+example:
+Days1 = {"Monday","Tuesday","Wednesday","Thursday", "Sunday"}    
+Days2 = {"Friday","Saturday","Sunday"}    
+print(Days1|Days2) #printing the union of the sets
+
+Days1 = {"Monday","Tuesday","Wednesday","Thursday"}    
+Days2 = {"Friday","Saturday","Sunday"}    
+print(Days1.union(Days2)) #printing the union of the sets.
+intersection: (&):The intersection of the two sets is given as the set of the elements that common in both sets.
+examples:
+set1 = {1,2,3,4,5,6,7}  
+set2 = {1,2,20,32,5,9}  
+set3 = set1.intersection(set2)  
+print(set1&set2)
+print(set3) 
+
+
+
+ Set Comparison:
+
+Python allows us to use the comparison operators i.e., <, >, <=, >= , == with the sets.
+example:
+set1 = {1,2,3,4,5,6,7}  
+set2 = {1,2,20,32,5,9} 
+print(set1>set2)
+print(set1<set2)
+print(set==set)
+
+
+  
